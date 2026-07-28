@@ -257,4 +257,21 @@ window.SPECIMENS = [
         <circle cx="84" cy="18" r="1.6" fill="currentColor" fill-opacity="0.28" />
       </svg>`,
   },
+  {
+    model: "Grok",
+    prompt: "a paper plane",
+    date: "2026-07-28",
+    svg: `<svg viewBox="0 0 160 100" width="160" height="100" role="img" aria-label="A paper airplane">
+    <path d="M10 50 L150 16 L105 50 L150 84 Z" fill="#f8f8f8" stroke="#222" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M10 50 L105 50 L150 16 Z" fill="#ffffff"/>
+    <path d="M10 50 L105 50 L150 84 Z" fill="#d4d4d4"/>
+    <path d="M10 50 L105 50" stroke="#444" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M105 50 L132 30" stroke="#888" stroke-width="0.9" stroke-dasharray="2.5 1.5"/>
+    <path d="M105 50 L132 70" stroke="#888" stroke-width="0.9" stroke-dasharray="2.5 1.5"/>
+    <path d="M150 16 L138 28 L150 22 Z" fill="#c8c8c8"/>
+    <path d="M150 84 L138 72 L150 78 Z" fill="#b0b0b0"/>
+    <circle cx="10" cy="50" r="2.4" fill="#222"/>
+    <path d="M28 50 L95 42 L95 58 Z" fill="#ececec" opacity="0.7"/>
+  </svg>`
+  }
 ];
