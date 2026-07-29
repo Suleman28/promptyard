@@ -258,7 +258,7 @@ window.SPECIMENS = [
       </svg>`,
   },
   {
-    model: "Grok",
+    model: "Grok 4.5 Fast",
     prompt: "a paper plane",
     date: "2026-07-28",
     svg: `<svg viewBox="0 0 160 100" width="160" height="100" role="img" aria-label="A paper airplane">
