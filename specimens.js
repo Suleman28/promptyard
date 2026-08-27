@@ -273,5 +273,268 @@ window.SPECIMENS = [
     <circle cx="10" cy="50" r="2.4" fill="#222"/>
     <path d="M28 50 L95 42 L95 58 Z" fill="#ececec" opacity="0.7"/>
   </svg>`
-  }
+  },
+
+  {
+    model: "Kimi K3",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A paper plane climbing past small clouds with a looping dashed trail">
+        <path d="M6 88 C 14 95 26 92 25 83 C 24 75 12 75 14 82 C 16 89 28 86 34 70"
+              fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-dasharray="3 3.5" stroke-linecap="round" opacity="0.55" />
+        <path d="M64 80 C 60 80 58 77 60 74 C 61 71 65 71 66 73 C 67 69 73 68 75 71 C 78 70 81 72 80 75 C 84 76 83 80 79 80 Z"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linejoin="round" opacity="0.35" />
+        <path d="M14 28 C 11 28 10 25 12 23 C 13 21 16 21 17 23 C 18 20 22 19 24 22 C 26 21 28 23 27 25 C 30 26 29 28 26 28 Z"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linejoin="round" opacity="0.35" />
+        <path d="M86 20 L16 48 L44 58 Z"
+              fill="currentColor" fill-opacity="0.06"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M86 20 L44 58 L56 84 Z"
+              fill="currentColor" fill-opacity="0.2"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M86 20 L44 58"
+              fill="none" stroke="currentColor" stroke-width="1"
+              stroke-dasharray="2 3" opacity="0.5" />
+      </svg>`,
+  },
+
+  {
+    model: "big-pickle",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A folded paper plane gliding upward with origami creases">
+        <path d="M85 12 L18 54 L46 54 Z" fill="currentColor" fill-opacity="0.07" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+        <path d="M85 12 L46 54 L54 84 Z" fill="currentColor" fill-opacity="0.22" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+        <path d="M46 54 L54 84 L58 72 Z" fill="currentColor" fill-opacity="0.12" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+        <path d="M18 54 L46 54 L38 66 Z" fill="currentColor" fill-opacity="0.04" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" />
+        <path d="M85 12 L46 54" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M46 54 L54 84" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M46 54 L38 66" fill="none" stroke="currentColor" stroke-width="0.8" stroke-dasharray="2 2" stroke-linecap="round" />
+      </svg>`,
+  },
+
+  {
+    model: "MiMo V2.5 Pro",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A paper plane diving forward with a swirling motion trail">
+        <path d="M8 72 C 12 68 18 76 24 70 C 30 64 32 58 38 56 C 44 54 50 58 52 52"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-dasharray="3 3" stroke-linecap="round" opacity="0.45" />
+        <path d="M82 24 L22 52 L48 60 Z"
+              fill="currentColor" fill-opacity="0.08"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M82 24 L48 60 L62 86 Z"
+              fill="currentColor" fill-opacity="0.22"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M82 24 L48 60"
+              fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-dasharray="2 2" opacity="0.6" />
+        <path d="M48 60 L42 74"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linecap="round" opacity="0.7" />
+        <circle cx="82" cy="24" r="2" fill="currentColor" fill-opacity="0.25" />
+      </svg>`,
+  },
+
+  {
+    model: "DeepSeek V4 Flash",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A paper plane climbing upward with origami-style folds">
+        <path d="M82 18 L22 48 L44 56 Z"
+              fill="currentColor" fill-opacity="0.06"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M82 18 L44 56 L54 82 Z"
+              fill="currentColor" fill-opacity="0.22"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M82 18 L44 56"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linecap="round" />
+        <path d="M44 56 L54 82"
+              fill="none" stroke="currentColor" stroke-width="1"
+              stroke-linecap="round" />
+        <path d="M22 48 L44 56 L34 68 Z"
+              fill="currentColor" fill-opacity="0.03"
+              stroke="currentColor" stroke-width="1.2"
+              stroke-linejoin="round" />
+        <path d="M10 84 C 18 88 28 80 24 72 C 20 64 10 70 16 76 C 22 82 32 74 36 66"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-dasharray="2.5 3"
+stroke-linecap="round" opacity="0.5" />
+      </svg>`,
+  },
+
+  {
+    model: "GLM 5.2",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A paper plane banking upward with a looping dashed trail">
+        <path d="M10 86 C 20 90 26 82 22 76 C 17 70 9 76 14 81 C 19 86 30 78 36 68"
+              fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-dasharray="3 3" stroke-linecap="round" opacity="0.5" />
+        <polygon points="86,30 16,56 48,54"
+                 fill="currentColor" fill-opacity="0.08"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linejoin="round" />
+        <polygon points="86,30 48,54 56,82"
+                 fill="currentColor" fill-opacity="0.22"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linejoin="round" />
+        <path d="M86 30 L48 54"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-dasharray="2 3" opacity="0.55" />
+        <path d="M48 54 L40 70"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linecap="round" />
+        <path d="M16 56 L36 64 L48 54"
+              fill="currentColor" fill-opacity="0.04"
+              stroke="currentColor" stroke-width="1.2"
+              stroke-linejoin="round" />
+      </svg>`,
+  },
+
+  {
+    model: "Grok 4.5",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A paper plane soaring diagonally with layered wing folds and a soft motion trail">
+        <path d="M8 78 C 16 86 28 84 30 74 C 32 64 20 62 18 70 C 16 78 26 80 38 62"
+              fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-dasharray="2.5 3.5" stroke-linecap="round" opacity="0.45" />
+        <path d="M88 16 L14 46 L46 56 Z"
+              fill="currentColor" fill-opacity="0.07"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M88 16 L46 56 L58 86 Z"
+              fill="currentColor" fill-opacity="0.2"
+              stroke="currentColor" stroke-width="2"
+              stroke-linejoin="round" />
+        <path d="M14 46 L46 56 L36 70 Z"
+              fill="currentColor" fill-opacity="0.05"
+              stroke="currentColor" stroke-width="1.3"
+              stroke-linejoin="round" />
+        <path d="M46 56 L58 86 L62 72 Z"
+              fill="currentColor" fill-opacity="0.1"
+              stroke="currentColor" stroke-width="1.2"
+              stroke-linejoin="round" />
+        <path d="M88 16 L46 56"
+              fill="none" stroke="currentColor" stroke-width="1.15"
+              stroke-linecap="round" />
+        <path d="M46 56 L52 66"
+              fill="none" stroke="currentColor" stroke-width="1"
+              stroke-linecap="round" opacity="0.7" />
+        <circle cx="88" cy="16" r="1.8" fill="currentColor" fill-opacity="0.28" />
+      </svg>`,
+  },
+
+  {
+    model: "Nemotron 3 Ultra",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A paper plane banking upward with sharp origami folds and a looping motion trail">
+        <path d="M10 85 C 18 92 30 88 32 78 C 34 68 22 66 20 74 C 18 82 28 80 38 68"
+              fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-dasharray="3 4" stroke-linecap="round" opacity="0.5" />
+        <polygon points="84,18 16,50 46,50"
+                 fill="currentColor" fill-opacity="0.08"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linejoin="round" />
+        <polygon points="84,18 46,50 54,82"
+                 fill="currentColor" fill-opacity="0.22"
+                 stroke="currentColor" stroke-width="2"
+                 stroke-linejoin="round" />
+        <polygon points="16,50 46,50 38,66"
+                 fill="currentColor" fill-opacity="0.04"
+                 stroke="currentColor" stroke-width="1.2"
+                 stroke-linejoin="round" />
+        <path d="M84 18 L46 50"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-dasharray="2 3" opacity="0.55" />
+        <path d="M46 50 L38 66"
+              fill="none" stroke="currentColor" stroke-width="1"
+              stroke-dasharray="1.5 2.5" stroke-linecap="round" opacity="0.6" />
+        <path d="M46 50 L54 82"
+              fill="none" stroke="currentColor" stroke-width="1.2"
+              stroke-linecap="round" opacity="0.7" />
+        <circle cx="84" cy="18" r="1.6" fill="currentColor" fill-opacity="0.25" />
+      </svg>`,
+  },
+
+  {
+    model: "Claude Opus 5 (80k tokens)",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A folded paper dart climbing, seen from above and behind">
+        <g fill="none" stroke="currentColor" stroke-linecap="round">
+          <path d="M25.5 64 C 18 65.9 11.1 69.2 5 74"
+                stroke-width="1.2" opacity="0.34" />
+          <path d="M28.5 72.5 C 21.1 74.3 14.5 77.4 8.5 82"
+                stroke-width="1.1" opacity="0.24" />
+          <path d="M34 80 C 28.6 81.1 23.7 83.3 19.5 86.8"
+                stroke-width="1" opacity="0.16" />
+        </g>
+        <g fill="currentColor" stroke="currentColor"
+           stroke-linejoin="round" stroke-linecap="round">
+          <path d="M88 27.1 L8 34.8 L33.9 54.7 Z"
+                fill-opacity="0.05" stroke-width="1.5" />
+          <path d="M88 27.1 L22.5 45.9" fill="none" stroke-width="0.9"
+                stroke-dasharray="4.5 2.5" opacity="0.3" />
+          <path d="M57.3 54.1 L35.8 72.9 L33.9 54.7 Z"
+                fill-opacity="0.28" stroke-width="1.5" />
+          <path d="M88 27.1 L59.3 54 L33.9 54.7 Z"
+                fill-opacity="0.14" stroke-width="1.9" />
+          <path d="M88 27.1 L45.1 54.4" fill="none" stroke-width="1"
+                stroke-dasharray="4.5 2.5" opacity="0.5" />
+        </g>
+      </svg>`,
+  },
+
+  {
+    model: "Claude Opus 5 v2",
+    prompt: "a paper plane",
+    date: "2026-07-29",
+    svg: `
+      <svg viewBox="0 0 100 100" role="img" aria-label="A folded paper dart climbing steeply, seen from above and behind">
+        <g fill="none" stroke="currentColor" stroke-linecap="round">
+          <path d="M29.7 68.6 C 22.6 71.8 16.2 76 10.4 81.1"
+                stroke-width="1.2" opacity="0.34" />
+          <path d="M33.5 76.3 C 26.7 79.3 20.5 83.3 15 88.3"
+                stroke-width="1.1" opacity="0.24" />
+          <path d="M39.2 83.3 C 34.1 85.2 29.6 88.1 25.8 92"
+                stroke-width="1" opacity="0.16" />
+        </g>
+        <g fill="currentColor" stroke="currentColor"
+           stroke-linejoin="round" stroke-linecap="round">
+          <path d="M93 22.1 L7 39.6 L37.3 58.3 Z"
+                fill-opacity="0.05" stroke-width="1.5" />
+          <path d="M93 22.1 L24 50.1" fill="none" stroke-width="0.9"
+                stroke-dasharray="4.5 2.5" opacity="0.3" />
+          <path d="M62.7 54.9 L41.6 77.9 L37.3 58.3 Z"
+                fill-opacity="0.28" stroke-width="1.5" />
+          <path d="M93 22.1 L64.9 54.6 L37.3 58.3 Z"
+                fill-opacity="0.14" stroke-width="1.9" />
+          <path d="M93 22.1 L49.5 56.7" fill="none" stroke-width="1"
+                stroke-dasharray="4.5 2.5" opacity="0.5" />
+        </g>
+      </svg>`,
+  },
+
 ];
